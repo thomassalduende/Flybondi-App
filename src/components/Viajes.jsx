@@ -26,7 +26,6 @@ const Viajes = () => {
 
   console.log(res)
 
-
   return (
     <>
       <div className='input'>
@@ -50,14 +49,14 @@ const Viajes = () => {
           </div>
       </div>
     ))} 
-   {
-     !res ? res : 
+   {/* {
+     (res.length > 0) ? res : 
       <div className='not-viajes'>
         <div className='card-not'>
           <p>There are no trips with the registered price</p>
         </div>
       </div>
-    }
+    } */}
     </>
 
   )
