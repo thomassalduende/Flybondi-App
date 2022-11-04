@@ -19,10 +19,13 @@ const Viajes = () => {
     setBusqueda(event.target.value)
   }
 
-  const resultado = !busqueda ? viaje : viaje.filter((item) => item.price <= busqueda)
 
+  let res = (viaje.filter((item) => item.price <= busqueda))
 
-  
+  const resultado = !busqueda ? viaje : res 
+
+  console.log(res)
+
 
   return (
     <>
@@ -46,8 +49,9 @@ const Viajes = () => {
               </div>
           </div>
       </div>
-    ))} {
-      !busqueda ? null : 
+    ))} 
+   {
+     !res ? res : 
       <div className='not-viajes'>
         <div className='card-not'>
           <p>There are no trips with the registered price</p>
