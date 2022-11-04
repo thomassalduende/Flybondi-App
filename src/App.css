@@ -1,0 +1,58 @@
+#root{
+    background-image: url('https://www.clarin.com/img/2017/05/15/r1aN7sDgZ_1256x620.jpg');
+    width: 100%;
+    height: 100%;
+}
+nav{
+    background-color: rgb(245, 239, 229);
+    height: 80px;
+    box-shadow: 5px 1px 10px;
+}
+
+.logo{
+    height: 50px;
+    margin-left: 10px;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    margin-left: 33%;
+    border-radius: 10px;
+    background-color:  rgb(191, 188, 188);
+}
+input:hover{
+    box-shadow: 5px 5px 10px rgb(248, 196, 6);
+}
+
+.card{
+    width: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 35px;
+    border-color: none;
+    font-size: 13px;
+    box-shadow: 2em;
+    background-image: url('./assets/fondo.jpg');
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgb(248, 196, 6);
+}
+.not-viajes{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 447px;
+}
+
+.card-not{
+    width: 260px;
+    height: 80px;
+    display: inline-flex;
+    margin: 60px;
+    border-color: none;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(243, 56, 56);
+}
